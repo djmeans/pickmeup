@@ -1,10 +1,11 @@
 import React from 'react';
+import './footer.css';
 
 export class Footer extends React.Component {
   render() {
     return(
       <div className='footer'>
-        <h2 className=''></h2>
+        <p className='legal'> &copy; 2018</p>
       </div>
     )
   }
