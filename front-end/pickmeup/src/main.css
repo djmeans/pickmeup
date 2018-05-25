@@ -1,0 +1,24 @@
+.app-main {
+  height: 100%;
+  flex: 2;
+}
+.content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+}
+.slogan {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  background-color: #128fdc;
+  height: auto;
+  border-radius: 5px;
+}

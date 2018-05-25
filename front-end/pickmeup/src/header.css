@@ -1,0 +1,36 @@
+.app-header {
+  /* flex: 1; */
+  background-color: #ff7c7c;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+}
+.app-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-title {
+  font-size: 28px;
+  font-weight: bold;
+  transition: .15s ease;
+}
+.app-title:hover {
+  transition: .15s ease;
+  color: #dadada;
+}
+.nav-right ul {
+  display: flex;
+}
+.nav-right ul li {
+  transition: .15s ease;
+  margin: 10px;
+}
+.nav-right ul li:hover {
+  transition: .15s ease;
+  color: #dadada;
+}
