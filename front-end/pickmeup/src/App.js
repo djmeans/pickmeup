@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from './Header';
 import {Main} from './Main';
@@ -18,7 +17,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch(url)
+    fetch('https://pick-me-up-db.herokuapp.com/pickups')
     .then(res => res.json())
     .then(res => {
       this.setState({

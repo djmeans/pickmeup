@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import {PickUpLine} from './PickUpLine'
 import './main.css'
 
@@ -8,7 +8,7 @@ export class Main extends React.Component {
     return (
       <div className='app-main'>
         <div className='sub-header'>
-          <h2 className='slogan'></h2>
+          <h2 className='slogan'>"You're going to be drowning in trim, we guarentee it"</h2>
           <div className='filter-buttons'>
             <ul>
               <li></li>
