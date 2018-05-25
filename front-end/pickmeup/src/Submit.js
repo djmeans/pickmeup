@@ -7,11 +7,12 @@ export class Submit extends React.Component {
       <div className='submit-container'>
         <form className='submit-form'>
           <label htmlFor='name'>Submitted by: </label>
-          <textarea name="name" type=""></textarea>
-          <label htmlFor='line'>Submitted by: </label>
+          <input name="name" type="text"></input>
+          <label htmlFor='line'>Add Pick Up Line:</label>
           <textarea name="line"></textarea>
-          <label htmlFor='success-rate'>Submitted by: </label>
-          <input name='success-rate'></input>
+          <label htmlFor='success-rate'>Success Rate:</label>
+          <input name='success-rate' type='number'></input>
+          <input type='submit' value='submit'></input>
         </form>
       </div>
     )
