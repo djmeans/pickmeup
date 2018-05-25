@@ -1,0 +1,16 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff7c7c;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+}
+.app-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+.nav-right ul {
+  display: flex;
+}

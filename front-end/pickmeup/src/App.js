@@ -6,6 +6,7 @@ import {Main} from './Main';
 import {Submit} from './Submit';
 import {About} from './About';
 import {Endorsements} from './Endorsements';
+import {Footer} from './Footer'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
