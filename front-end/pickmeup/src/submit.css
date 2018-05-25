@@ -1,0 +1,30 @@
+.submit-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.submit-header {
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+.submit-form input, .submit-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px auto 10px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.submit-form input[type=submit] {
+  color: #fff;
+  background-color: #128fdc;
+  cursor: pointer;
+}
+.submit-form input[type=submit]:hover {
+  color: #dadada;
+}

@@ -17,6 +17,16 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+    fetch(url)
+    .then(res => res.json())
+    .then(res => {
+      this.setState({
+        pickUpLines: res
+      })
+    })
+  }
+
   render() {
     return (
       <Router>
