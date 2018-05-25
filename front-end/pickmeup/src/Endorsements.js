@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './endorsements.css';
 
 export class Endorsements extends React.Component {
   render(){
@@ -6,6 +7,7 @@ export class Endorsements extends React.Component {
       <div>
         <div className='about-container'>
           <div className='title-card'>
+<<<<<<< HEAD
             <h2 className='name'>Keith Jones</h2>
             <p>When I first met my fiance, I never thought she'd agree to go out with me, I mean come on, would you!? I'm not confident, attractive, or funny. Thank god for technology. With the help of the "PickMeUp" app, my lonely nights have turned into island delights. Definitely a must-have for any bachelor looking to settle down.</p>
             <img className='img' src=""/>
@@ -24,9 +26,3 @@ export class Endorsements extends React.Component {
             <h2 className='name'>Derek Hassick</h2>
             <p>When I was younger, I was more than happy to hang out with Palmala Handerson, but now that I'm a fully grown man-child, I require a bit more from my endeavors. Using these real-world tested pick-up lines has changed my life. Girls used to run at the sight of me, and now, when I catch up to them, I can at least make them blush before they either beat me with their purse or call the police. Buy now!</p>
             <img className='img' src=""/>
-          </div>
-        </div>
-      </div>
-    )
-  }
-}
