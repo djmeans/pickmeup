@@ -10,8 +10,8 @@ export class Header extends React.Component {
         <nav>
           <ul>
             <li><Link to='/app/home'>Home</Link></li>
-            <li><Link to='/app/endorsements'>Endorsements</Link></li>
             <li><Link to='/app/submit'>Submit</Link></li>
+            <li><Link to='/app/endorsements'>Endorsements</Link></li>
             <li><Link to='/app/about-us'>About</Link></li>
           </ul>
         </nav>
