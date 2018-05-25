@@ -1,4 +1,22 @@
 .pick-up-line {
-  border: 2px solid #666;
+  background-color: #fff;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  height: auto;
+  margin: 20px 0 20px 0;
+  width: 80%;
+}
+.category {
+  color: #666;
+  font-style: italic;
+  padding: 5px;
+  text-align: center;
+}
+.line {
+  font-size: 32px;
+  text-align: center;
+  margin: 10px;
+}
+.success {
+  text-align: center;
 }
