@@ -6,6 +6,7 @@
   align-items: center;
 }
 
+
 .title-card {
   height: 25vh;
   width:65vw;
@@ -28,6 +29,5 @@
 }
 
 .img {
-
   width: 175px;
 }
